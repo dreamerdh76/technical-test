@@ -1,3 +1,5 @@
+![Demo](assets/demo.png)
+
 # Gestor de Tareas  
 _Laravel 12 + Vue 3 (Vite)_
 
