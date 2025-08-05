@@ -48,7 +48,6 @@ cd technical-test
 ```bash
 cd backend
 composer install            # dependencias PHP
-cp .env.example .env        # variables de entorno
 php artisan migrate         # tablas: tasks, keywords, pivot (yes all options)
 php artisan serve --port=8000
 ```
