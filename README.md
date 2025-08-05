@@ -39,7 +39,7 @@ technical-test/
 ### 1 — Clonar el repo
 
 ```bash
-git clone https://github.com/TU_USUARIO/technical-test.git
+git clone https://github.com/dreamerdh76/technical-test.git
 cd technical-test
 ```
 
