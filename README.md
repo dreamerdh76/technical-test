@@ -1,5 +1,5 @@
 # Gestor de Tareas  
-_Laravel 10 + Vue 3 (Vite)_
+_Laravel 12 + Vue 3 (Vite)_
 
 > Monorepo con un backend REST en **Laravel** y un frontend SPA en **Vue 3**. Permite listar, crear y completar tareas con palabras clave reutilizables.
 
@@ -94,13 +94,8 @@ _Añade estos alias en `package.json` raíz si lo deseas._
 
 ---
 
-## (Opcional) Docker Compose
 
-```bash
-docker compose up --build
-```
-
-- **api** → `http://localhost:8000`  
+- **api** → `http://localhost:8000/api/v1/`  
 - **web** → `http://localhost:5173`
 
 Mira `docker-compose.yml` para personalizar puertos o volúmenes.
