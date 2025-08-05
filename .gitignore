@@ -1,0 +1,16 @@
+# === GLOBAL ===
+.DS_Store
+node_modules/
+.env               # para Laravel; cada desarrollador tendrá el suyo
+# === LARAVEL ===
+backend/vendor/
+backend/storage/*.key
+backend/storage/*.log
+backend/storage/framework/*
+backend/public/storage
+
+frontend/dist/
+
+.idea/
+.vscode/
+cache/
