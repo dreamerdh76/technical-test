@@ -49,9 +49,7 @@ cd technical-test
 cd backend
 composer install            # dependencias PHP
 cp .env.example .env        # variables de entorno
-php artisan key:generate
-# Configura la DB (SQLite es el default → database/database.sqlite)
-php artisan migrate         # tablas: tasks, keywords, pivot
+php artisan migrate         # tablas: tasks, keywords, pivot (yes all options)
 php artisan serve --port=8000
 ```
 
